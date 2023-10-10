@@ -1,3 +1,4 @@
+
 body {
   background-image: url(./darius-anton-coffee-01.gif);
   background-size: auto;
@@ -20,8 +21,17 @@ header {
 }
 
 #jobs {
+  display: flex;
+  justify-content: space-around;
   margin: 0 auto;
   border: red solid 5px;
   width: 1300px;
   height: 650px;
+}
+
+#celtic, #starbies {
+  justify-content: center;
+  width: 500px;
+  height: 700px;
+  border: solid red 5px;
 }
