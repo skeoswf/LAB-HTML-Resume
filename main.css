@@ -24,7 +24,6 @@ header {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
-  border: red solid 5px;
   width: 1300px;
   height: 650px;
 }
@@ -33,5 +32,17 @@ header {
   justify-content: center;
   width: 500px;
   height: 700px;
-  border: solid red 5px;
+  border-radius: 10%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#celtic {
+  background-color: beige;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#starbies {
+  background-color: rgb(61, 61,9);
+  font-family: Arial, Helvetica, sans-serif;
 }
